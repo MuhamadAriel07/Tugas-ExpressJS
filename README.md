@@ -2,6 +2,7 @@
 
 URL Parameter : <BR>
 http://127.0.0.1:3000/biodata?nama=Ariel&tempat-lahir=Bekasi&tanggal-lahir=07062005&alamat=Kp.%20Rawa%20Semut%20No.%2055
+ 
 http://127.0.0.1:3000/biodata
 
 ### Result Screenshoot
