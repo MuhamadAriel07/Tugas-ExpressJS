@@ -2,6 +2,7 @@ var express = require('express')
 var app = express()
 require('dotenv').config()
 const port = process.env.PORT || 80;
+const host = process.env.HOST || 'localhost';
 
 // menggunakan req.query dengan URL parameter
 app.get('/biodata', (req, res) => {
@@ -37,4 +38,4 @@ app.post('/biodata', (req, res) => {
 })
 
 app.listen(port);
-console.log('Server started at http://localhost: ' + port)
+console.log(`Server started at http://${host}:${port}`)
